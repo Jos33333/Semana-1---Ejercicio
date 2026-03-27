@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 namespace Taller3D
 {
     
-    
-    
+   
     internal class Menu
     {
         public void ejecutable()
@@ -116,8 +115,6 @@ namespace Taller3D
                 Console.WriteLine($"ingresa una operación valida registrada");
                  
             }
-
-       
 
         }
 
