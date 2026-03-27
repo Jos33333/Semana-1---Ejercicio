@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -85,7 +86,7 @@ namespace Taller3D
             float restar = valor1 - valor2;
             float multiplicar = valor1 * valor2;
             float dividir = valor1 / valor2;
-            float Elresto = valor2 % valor2;
+            float Elresto = valor1 % valor2;
 
             Console.WriteLine("Sumar = + / restar = - / multiplicar = * / dividir = / / resto = %");
             string operacion = Console.ReadLine();
@@ -116,15 +117,12 @@ namespace Taller3D
                  
             }
 
-          
-     
+       
 
+        }
 
-
-
-
-
-
+        public void ejercicio5()
+        {
 
         }
     }

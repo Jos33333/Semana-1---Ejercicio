@@ -17,6 +17,7 @@ namespace Taller3D
             // menu.ejercicio2();
             // menu.ejercicio3();
             menu.ejercicio4();
+            menu.ejercicio5();
         }
     }
 }
